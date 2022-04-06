@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Header = styled.header`
-  padding: 32px;
+  padding: 20px 0;
 
   .header-explore {
     font-size: 32px;
@@ -10,7 +10,17 @@ export const Header = styled.header`
   }
 
   .header-slogan {
+    margin: 0 0 20px 0;
     color: #828282;
     font-size: 14px;
+  }
+
+  @media (min-width: 640px) {
+
+    .header-content {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  }
   }
 `;

@@ -25,7 +25,7 @@ export const ProductCard: React.FC<IProps> = ({
   initial_price,
   quantity,
   quantity_available,
-}) => {
+}): JSX.Element => {
   return (
     <ProductCardWrapper>
       <ProductCardImage src={src} />
